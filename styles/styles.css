@@ -93,6 +93,11 @@ header {
     padding: 0 15px;
 }
 
+.col-12 {
+    padding: 0 15px;
+    width: 100%;
+}
+
 .space-between {
     display: flex;
     flex-direction: column;
@@ -100,43 +105,32 @@ header {
     height: 100%;
 }
 
-.creative-padd158-0-117 {
+.creative-page--row-overall-paddings {    /*overall-paddings - общие вн.отступы*/
     padding: 152px 0 117px;
 }
 
-.oxygen68px700-86lh {
+.creative-page--title {
     font-size: 68px;
     font-weight: 700;
     line-height: 85.86px;
-}
-
-.oxygen64px700 {
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 64px;
 }
 
 .text-center {
     text-align: center;
 }
 
-.oxygen24px700 {
+.creative-page--subtitle {
     font-size: 24px;
     font-weight: 700;
     line-height: 40.8px;
 }
 
-.oxygen22px700 {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 37.4px;
-}
-
-.rubik18px300 {
+.creative-page--p, .track-grow--p {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 30.6px;
+    color: #333333;
 }
 
 .creative-svg {
@@ -153,10 +147,11 @@ header {
     color: orangered;
 }
 
-.oxygen17px400 {
+.creative-page--subtitle__p {
     font-size: 17px;
     font-weight: 400;
     line-height: 28.9px;
+    color: #333333;
 }
 
 /* Track and grow */
@@ -167,21 +162,31 @@ header {
     align-items: center;
     flex-direction: column;
 }
-.span1 {
+
+.section--title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.text-line-break {
     display: block;
     text-align: center;
 }
-.col-12 {
-    padding: 0 15px;
-    width: 100%;
-}
 
-.text-center148-0-29 {
+.track-grow--overall-paddings {
     padding: 148px 0 29px
 }
 
-.track-p-padd {
+.track--box__flex-spacing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.track-grow--p-spacing {
     padding-top: 27px;
+    width: 660px;
 }
 
 .btn {
@@ -216,35 +221,34 @@ header {
     margin: 0 auto;
 }
 
-.padd0-0-45px {
+.tons--row-overall-paddings {
     padding: 0 0 45px ;
 }
 
-.padd140-0-0 {
+.tons--box-overall-paddings {
     margin: 140px 0 0;
 }
 
-.padd-0-15-15 {
-    padding: 0 15px 15px;
-}
-
-.padd80-0-0 {
+.tons--title-paddings {
     padding: 80px 0 0;
 }
 
-.inter18px400lh33 {
-    color: #666666;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32.4px;
+.sub-title-h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 37.4px;
 }
 
-.padd52-0-16 {
+.tons--title-p-spacing {
+    width: 460px;
     padding: 52px 0 16px;
 }
 
-.inter17px400lh47 {
+.tons--box-inner-paddings {
+    padding: 0 15px 15px;
+}
+
+.tons--box-inner__p {
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 400;
@@ -265,16 +269,23 @@ header {
     margin: 0 auto;
 }
 
-.too-good-for-padds {
+.too-good--row-overall-paddings {
     padding-bottom: 154px;
 }
 
-.padd180-0-0-width-613 {
+.too-good--title-spacing {
     padding: 180px 0 0;
     width: 613px;
 }
 
-.padd29-0-86 {
+.sub-title-p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32.4px;
+}
+
+.too-good--title-p-paddings {
     padding: 29px 0 86px;
 }
 
@@ -282,7 +293,7 @@ header {
     color: #666666;
 }
 
-.gap25-padd0-0-40 {
+.too-good--box-content-spacing {
     display: flex;
     gap: 25px;
     padding: 0 0 40px;
@@ -292,7 +303,7 @@ header {
     padding: 10px 0 0;
 }
 
-.oxygen16px400 {
+.box-content--p {
     font-size: 16px;
     font-weight: 400;
     line-height: 27.2px;
@@ -310,3 +321,80 @@ header {
     margin: 0 auto;
 }
 
+.smi--box-overall-paddings {
+    padding-top: 50px;
+}
+
+/* Social media integration done */
+
+.building-amazing-templates {
+    background-color: #FFCB39;
+}
+
+
+.building-amazing-templates {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* building templater done */
+
+
+.container-faq {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.faq-overall-paddings {
+    padding: 188px 0 68px;
+}
+
+.faq--title-paddings {
+    padding-top: 15px;
+}
+
+.faq--title-p-spacing {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.line-break2 {
+    display: block;
+}
+
+.drop-block {
+    display: flex;
+    flex-direction: column;
+    width: 610px;
+}
+
+.drop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drop--line-parent {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 37px;
+}
+
+.line-child--p-spacing {
+    padding: 25px 0;
+}
+
+.drop-underline {
+    width: 630px;
+    color: #111;
+}
+
+/* FAQ over */
+
+.testimonals {
+    background-color: #C4C4C4;
+    background: url(/assets/bgmask.png) no-repeat center center/cover ;
+    height: 830px;
+}
