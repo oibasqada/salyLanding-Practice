@@ -398,3 +398,234 @@ header {
     background: url(/assets/bgmask.png) no-repeat center center/cover ;
     height: 830px;
 }
+
+.quote-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 189px 0 0;
+}
+
+.quote-quote {
+    display: flex;
+    gap: 20px;
+    width: 945px;
+    justify-content: space-between;
+}
+
+.quote-text {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 61.2px;
+}
+
+.quote-author {
+    padding-top: 21px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32.4px;
+}
+
+.inc-usa {
+    font-weight: 400;
+}
+
+.authors-dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.dots {
+    width: 119px;
+    height: 15px;
+}
+
+.clients {
+    padding: 140px 0 0;
+    width: 1085px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lavender-group {
+    width: 176px;
+    height: 66px;
+}
+
+.georgia-const {
+    width: 203px;
+    height: 56px;
+}
+
+/* testimonal done. Final frontier */
+
+.easy-app-features {
+    padding: 129px 0 0;
+}
+
+.container-ez-app-features {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ez--p-spacing {
+    padding: 29px 0 60px;
+}
+
+.plan-spacing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+
+.plan-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30.6px;
+}
+
+.plan-price {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81.92px;
+}
+
+.usd {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 23.04px;
+}
+
+.plan-desc {
+    max-width: 155px;
+    line-height: 40px;
+    color: #333333;
+    padding: 45px 0 145px;
+}
+
+.buy-btn {
+    color: #fff;
+    line-height: 59.4px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #F03125;
+    border: none;
+    border-radius: 150px;
+    padding: 0 29px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: #a50202;
+}
+
+.popular {
+    border: none;
+    background-color: #FFCB39;
+    line-height: 18.7px;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0 5px ;
+    letter-spacing: 1px;
+}
+
+.hyphen {
+    display: block;
+}
+
+.other-spacing {
+    text-align: start;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.sign-btn {
+    line-height: 27px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+    padding: 22px 55px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #7D5FBD;
+    cursor: pointer;
+}
+
+.rgstr-btn {
+    line-height: 27px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+    padding: 22px 55px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #8FCA12;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.sign-btn:hover {
+    background-color: #552ab1;
+}
+.rgstr-btn:hover {
+    background-color: #39b608;
+}
+
+.act-btns {
+    padding: 0 0 110px;
+}
+
+/* FINALLY FOOOOTER!!! */
+
+.container-footer {
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.socials {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.soc-name {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    color: #000;
+}
+
+.soc-name:hover {
+    color: orangered;
+}
+
+.inc {
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+}
+
+
+/* ufff~ */
